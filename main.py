@@ -70,26 +70,6 @@ class ShoppingCart:
             item.print_item_description()
             print()
 
-customer_name = input("Enter customer's name:\n")
-today_date = input("Enter today's date:\n")
-
-
-print("\nCustomer name:", customer_name)
-print("Today's date:", today_date)
-
-
-cart = ShoppingCart(customer_name, today_date)
-
-def print_menu():
-    print("MENU")
-    print("a - Add item to cart")
-    print("r - Remove item from cart")
-    print("c - Change item quantity")
-    print("i - Output items' descriptions")
-    print("o - Output shopping cart")
-    print("q - Quit")
-
-
 
 
 if __name__ == "__main__":
